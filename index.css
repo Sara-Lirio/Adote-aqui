@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Fredoka+One&family=Merienda&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+  
+
+body{
+	background: #9DD19B;
+	width: 100%;
+}
+
+/* Cabeçalho da Página */
+
+header {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;	
+	background: #74489C;
+	width: 100%;
+	position: fixed;
+}
+
+.conteudo-logo {
+	padding: 10px 40px;;
+}
+
+.logo1 {
+	width: 60px;
+}
+ 
+.logo2 {
+	width: 160px;
+}
+
+.menu-mobile {
+	display: none;
+}
+
+.menu {
+	padding-right: 70px;
+}
+
+ul {
+    display: flex;
+	list-style: none; 
+	width: 675px;
+	justify-content: space-between;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+a {
+	color: inherit;
+	text-transform: uppercase;
+}
+
+li :hover {
+	color: #ffd668;
+}
+
+/* Contéudo da Página */
+/* Sessão1 */
+
+.conteudo-principal{
+	width: 100%;
+	background-image: url(./Imagens/dog.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-top: 110px;
+}
+
+h1 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 46px;
+	font-weight: 400;
+	color: #74489C;
+	padding-right: 50px;
+}
+
+.adoteaqui p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 27px;
+	color: #74489C;
+	padding-left: 50px;
+}
+
+button {
+	background: #74489C;
+	font-family: 'Fredoka One', cursive;
+	padding: 8px 25px;
+	border: none;
+	font-size: 22px;
+	color: white;
+	border-radius: 16px;
+	text-transform: uppercase;
+}
+
+.botao-adote {
+	margin-top: 37px;
+	margin-left: 390px;
+	font-size: 28px;
+}
+
+button:hover {
+	background-color: #74489C;
+	color:#ffd668;
+}
+
+.botao-adote:hover {
+	transition: 1s;
+    transform: scale(1.2);
+}
+
+h2 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 35px;
+	font-weight: 400;
+	color: #74489C;
+	text-align: center;
+	padding: 30px 55px 0 0;
+}
+
+.conte-historia div {
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	margin-top: 15px;
+}
+
+.conte-historia p {
+	padding-right: 10px;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 23px;
+	padding-top: 20px;
+	color: #74489C;
+	text-align: center;
+}
+
+.botao-conte{
+	margin-top: 30px;
+	margin-left: 165px;
+	padding: 8px 30px;
+}
+
+.ajude p {
+	font-size: 24px;
+	padding-right: 55px;
+	padding-top: 45px;
+}
+
+.botao-ajude {
+	margin: 30px 0 50px 90px;
+}
+
+.conteudo-adoteaqui {
+	display: flex;
+	align-content: space-around;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.icone-adoteaqui {
+	width: 100px;
+}
+
+h3 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	font-weight: 200;
+	color: #74489C;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/* Sessão2 */
+
+.box-adote {
+	width: 25%;
+	padding: 0 20px 0 20px;
+}
+
+.icone-adoteaqui {
+	margin-left: 90px;
+}
+
+.titulo-adoteaqui {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.texto-adoteaqui {
+	font-size: 18px;
+}
+
+/* Sessão3 */
+
+.sobre-pashu {
+	background-image: url(./Imagens/imagem-sobre.jfif);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.historia-pashu {
+	width: 28%;
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+
+h5 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 34px;
+	font-weight: 200;
+	color: #ffd668;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.texto-sobre {
+	padding-top: 60px;
+	line-height: 1.5;
+	color:white;
+}
+
+/* Sessão4 */
+
+.conteudo-historias{
+	background-color: #ffd668;
+	display: flex;
+}
+
+.imagem-historia {
+	width: 400px;
+	margin-left: 60px;
+}
+
+.texto-historia {
+	padding: 40px 80px;
+}
+
+h4 {
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	font-weight: 200;
+	color: #74489C;
+	text-align: center;
+	padding-top: 17px;
+	padding-bottom: 35px;
+}
+
+.titulo {
+	font-family: 'Aladin', cursive;
+	font-size: 35px;
+	padding-bottom: 20px;
+}
+
+.historia {
+	font-family: 'Merienda', cursive;
+	font-size: 16px;
+	line-height: 1.7;
+	margin-bottom: 40px;
+}
+
+/* Sessão5 */
+.contato {
+	background-image: url(./Imagens/imagem-contato.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.formulario-mensagem{
+	background-color: rgba(255, 255, 255,0.5);
+	width: 45%;
+	margin-left: 60px;
+	padding: 30px;
+	border-radius: 30px;
+	margin-top: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	height: 620px;
+}
+
+.formulario {
+	display: flex;
+	flex-direction: column;
+}
+
+.formulario-titulo {
+	margin-bottom: 20px;
+	font-family: 'Fredoka One', cursive;
+}
+
+label {
+	color: #74489C;
+	padding-bottom: 5px;
+	font-size: 18px;
+	font-family: 'Fredoka One', cursive;
+}
+
+input, textarea {
+	border-radius: 10px;
+	border-style: solid;
+	padding: 10px 6px;
+	border-width: 0.7px;
+	border-color: rgb(124, 124, 124);
+	background-color: transparent;
+	color:rgb(124, 124, 124);;
+}
+
+.botao-mensagem {
+	margin: 15px 190px;
+}
+
+/* Rodapé da Página */
+
+footer {
+	background: #74489C;
+	padding-bottom: 20px;
+}
+
+.midia-social {
+	width: 130px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.instagram{
+	width: 30px;
+	margin-left: 10px;
+}
+
+.facebook {
+	width: 30px;
+}
+
+.twitter {
+	width: 30px;
+}
+
+.titulo-midia {
+	color: #ffd668;
+	font-family: 'Fredoka One', cursive;
+}
+
+.sessao-midia {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	margin-right: 30px;
+	padding-top: 20px;
+}
+
+.rodape {
+	color: white;
+	font-size: 16px;
+	padding-top: 1px ;
+}
+
+.rodape1 {
+	color: white;
+	font-size: 13px;
+	padding-top: 2px;
+}
