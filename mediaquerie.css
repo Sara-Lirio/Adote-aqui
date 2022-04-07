@@ -1,0 +1,395 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+/* Media query - Tablet 768 x 570  */
+
+@media (max-width: 770px){
+    header {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position:relative;
+    }
+
+    .menu {
+        padding-right: 5px;
+        padding-bottom: 20px;
+    }
+
+    .conteudo-principal {
+    width: 768px;
+    height: 400px;
+    padding-top: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+        padding-right: 15px;
+        text-align: end;
+    }
+
+    .adoteaqui p, p{
+        font-size: 19px;
+        padding-top: 5px;
+    }
+
+    button, .botao-adote {
+        font-size: 17px;
+        padding: 5px 15px;
+        border-radius: 8px;
+    }
+
+    .botao-adote {
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+
+    h2 {
+        padding: 5px 15px 0 0;
+        font-size: 21px;
+    }
+    .conte-historia {
+        width: 350px;
+    }
+
+    .conte-historia p {
+        font-size: 15px;
+    }
+
+    .botao-conte{
+        margin-top: 9px;
+        margin-left: 90px;
+    }
+
+    .ajude {
+        width: 360px;
+    }
+
+    .ajude p {
+        font-size: 17px;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
+
+    .botao-ajude {
+    margin: 12px 0 50px 90px;
+    }
+
+    h3 {
+        font-size: 23px;
+        padding-top: 25px;
+	    padding-bottom: 35px;
+    }
+
+    .icone-adoteaqui {
+	    margin-left: 20px;
+    }
+
+    .texto-adoteaqui {
+        font-size: 17px;
+    }
+
+    .historia-pashu{
+        width: 270px;
+        padding-left: 18px;
+	    padding-bottom: 50px;
+    }
+
+    .sobre-pashu {
+        width: 768px;
+        height: 500px;
+    }
+
+    h5 {
+        font-size: 23px;
+        padding-top: 35px;
+    }
+
+    .texto-sobre {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+    .imagem-historia {
+        height: 600px;
+        margin-left: 30px;
+    }
+
+    .conteudo-historias {
+        height: 600px;
+    }
+
+    .texto-historia {
+        padding: 10px 20px;
+    }
+
+    .historia {
+        font-size: 13px;
+    }
+
+    .titulo {
+        font-size: 24px;
+        padding-bottom: 12px;
+    }
+
+    h4 {
+        font-size: 23px;
+        padding-top: 15px;
+	    padding-bottom: 15px;
+    }
+
+    .contato {
+        width: 768px;
+        height: 500px;
+    }
+
+    .titulo-contato {
+        font-size: 19px;
+    }
+
+    .formulario-mensagem{
+        width: 380px;
+        margin-left: 30px;
+        padding: 15px;
+        border-radius: 15px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        height: 420px;
+    }
+
+    .formulario-titulo {
+        margin-bottom: 16px;
+    }
+    
+    label {
+        padding-bottom: 3px;
+        font-size: 13px;
+    }
+    
+    input, textarea {
+        border-radius: 7px;
+        padding: 5px 2px;
+        border-width: 0.4px;
+        font-size: 13px;
+    }
+
+    textarea {
+        height: 110px;
+    }
+
+    .botao-mensagem {
+        margin: 7px 136px;
+    }
+
+    .rodape {
+        font-size: 13px;
+        padding-top: 0.3px ;
+    }
+    
+    .rodape1 {
+        font-size: 10px;
+        padding-top: 0.6px;
+    }
+
+    .instagram{
+        width: 18px;
+        margin-left: 10px;
+    }
+    
+    .facebook {
+        width: 18px;
+    }
+    
+    .twitter {
+        width: 18px;
+    }
+
+    .midia-social {
+        width: 90px;
+    }
+
+    footer {
+        padding-bottom: 9px;
+    }
+}
+
+/* Media query - Mobile 425 x 570  */
+
+@media (max-width: 430px){
+    body{
+        max-width:100%;
+    }
+
+    ul {
+        align-items: center;
+        width: 425px;
+    }
+
+   .menu {
+        width: 425px;
+        padding-right: 0.1px;
+        display: none;
+    }
+
+   .menu-mobile {
+       display: inline;
+       position: absolute;
+       margin: 15px 160px;   
+    }
+
+   .icone-menu{
+       width: 40px;
+    }
+
+   .conteudo-logo {
+       display: flex;
+       align-items: flex-start;
+       padding-right: 230px;
+       width: 425px;
+    }
+
+   .logo1 {
+       width: 40px;
+    }
+
+   .logo2 {
+       width: 120px;
+    }
+
+   .botao-adote {
+    margin-left: 140px;
+    }
+   
+    .conteudo-principal {
+        background-image: url(./Imagens/background-mobile.jpg);
+        width: 425px;
+        height: 600px;
+        display: flex;
+        align-items: center;  
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    h2 {
+        padding-top: 20px;
+    }
+
+    .conte-texto {
+        color: #552c7c;
+        width: 120px;
+        text-align: end;
+        margin-left: 230px ;
+        margin-right: 15px;
+        font-size: 18px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    .adoteaqui p {
+        padding-left: 10px;
+    }
+
+    .conteudo-adoteaqui {
+        display: flex;
+        flex-direction: column;
+        width: 425px;
+    }
+
+    .box-adote {
+        width: 410px;
+    }
+
+    .icone-adoteaqui {
+        width: 80px;
+        margin-left: 150px;
+        padding-top: 35px;
+    }
+
+    h3 {
+        margin: 45px 0 0 0;
+        padding: 0;
+    }
+    
+    .conteudo-historias {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffd668;
+    }
+
+    .sobre-pashu {
+        background-image: none;
+        background-color: #74489C;
+        width: 425px;
+        height: 400px;
+    }
+    
+    h5 {
+        text-align: center;
+    }
+
+    .imagem-historia {
+	    width: 425px;
+	    margin-left: 0px;
+    }
+
+    .historia-pashu {
+        width: 425px;
+    }
+
+    .texto-sobre{
+        width: 380px;
+        font-size: 18px;
+    }
+
+    .contato {
+        background-image: none;
+        width: 425px;
+        margin-top: 450px;
+        height: 514px;
+    }
+
+    .formulario-mensagem {
+       
+        margin-left: 18px;
+    }
+}
+
+/* Media query - Mobile 375 x 570  */
+@media (max-width: 380px){
+    .conteudo-logo {
+        width: 375px;
+    }
+
+    .conteudo-principal {
+        width: 375px;
+    }
+
+    .conteudo-adoteaqui {
+        width: 375px;
+    }
+
+    .sobre-pashu {
+        width: 375px; 
+    }
+
+    .menu-mobile{
+        margin: 14px 140px;
+    }
+
+    .imagem-historia{
+        width: 100% }
+
+    .formulario-mensagem {
+        width: 350px;
+        margin-left: 25px;
+    }
+}
+
